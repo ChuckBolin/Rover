@@ -143,7 +143,7 @@ def write_data(name):
   
   output = ','.join(str(x) for x in parameters) #sep.join(parameters)
   row_count += 1
-  #print (output)
+  print (output)
   
   # Append data
   list_data.append(output)
